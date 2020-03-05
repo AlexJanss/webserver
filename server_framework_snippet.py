@@ -20,3 +20,5 @@ def app(environ, start_response):
     """A barebones WSGI app."""
     start_response('200 OK', [('Content-Type', 'text/plain')])
     return [b'Hello world!']
+
+run_application(app)
