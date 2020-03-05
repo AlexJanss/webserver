@@ -12,3 +12,6 @@ $ source lsbaws/bin/activate
 (lsbaws) $ pip install pyramid
 (lsbaws) $ pip install flask
 (lsbaws) $ pip install django
+
+For the djangoapp it is essential to run django-admin.py startproject helloworld
+ beforehand.
