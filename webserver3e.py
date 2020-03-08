@@ -26,7 +26,7 @@ def handle_request(client_connection):
     http_response = b"""\
 HTTP/1.1 200 OK
 
-Hello, World!
+Hello, you!
 """
     client_connection.sendall(http_response)
     # sleep to allow the parent to loop over to 'accept' and block there
